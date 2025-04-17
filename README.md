@@ -32,7 +32,7 @@ A modern web application for managing and delivering educational content with re
 
 1. Clone the repository:
    ```bash
-   git clone [your-repository-url]
+   git clone [[your-repository-url]](https://github.com/Harsha200812/Dynamic-Curriculum.git)
    cd Dynamic-Curriculum
    ```
 
