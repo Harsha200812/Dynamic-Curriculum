@@ -127,4 +127,4 @@ For support, please open an issue in the [GitHub repository](https://github.com/
 
 - [GitHub Repository](https://github.com/Harsha200812/Dynamic-Curriculum)
 - [Live Demo](https://dynamic-curriculum.netlify.app) (if deployed)
-- [Issue Tracker](https://github.com/Harsha200812/Dynamic-Curriculum/issues) 
+- [Issue Tracker](https://github.com/Harsha200812/Dynamic-Curriculum/issues)
