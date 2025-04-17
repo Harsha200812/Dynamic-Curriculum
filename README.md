@@ -32,7 +32,7 @@ A modern web application for managing and delivering educational content with re
 
 1. Clone the repository:
    ```bash
-   git clone [your-repository-url]
+   git clone https://github.com/Harsha200812/Dynamic-Curriculum.git
    cd Dynamic-Curriculum
    ```
 
@@ -44,7 +44,7 @@ A modern web application for managing and delivering educational content with re
    ```
 
 3. Create a `.env` file in the root directory and add your Supabase credentials:
-   ```
+   ```env
    VITE_SUPABASE_URL=your_supabase_url
    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
@@ -73,6 +73,14 @@ src/
 
 The project is configured for deployment on Netlify. Simply connect your repository to Netlify, and it will automatically deploy your application.
 
+### Netlify Configuration
+The project includes a `netlify.toml` file with the following configuration:
+```toml
+[build]
+  command = "npm run build"
+  publish = "dist"
+```
+
 ## 📝 Available Scripts
 
 - `npm run dev` - Start development server
@@ -85,9 +93,19 @@ The project is configured for deployment on Netlify. Simply connect your reposit
 Create a `.env` file in the root directory with the following variables:
 
 ```env
+# Supabase Configuration
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# Optional: Analytics Configuration (if needed)
+VITE_ANALYTICS_ID=your_analytics_id
 ```
+
+### Getting Supabase Credentials
+1. Create a new project on [Supabase](https://supabase.com)
+2. Go to Project Settings > API
+3. Copy the `Project URL` and `anon` public key
+4. Paste them in your `.env` file
 
 ## 📄 License
 
@@ -103,4 +121,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-For support, please open an issue in the GitHub repository or contact the maintainers. 
+For support, please open an issue in the [GitHub repository](https://github.com/Harsha200812/Dynamic-Curriculum/issues) or contact the maintainers.
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/Harsha200812/Dynamic-Curriculum)
+- [Live Demo](https://dynamic-curriculum.netlify.app) (if deployed)
+- [Issue Tracker](https://github.com/Harsha200812/Dynamic-Curriculum/issues) 
